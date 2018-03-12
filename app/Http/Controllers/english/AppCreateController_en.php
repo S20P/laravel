@@ -26,6 +26,9 @@ class AppCreateController_en extends Controller
    {
      // Defaults
 
+
+
+
   $this->middleware('preventBackHistory')->except('logout');
 
   $this->app_title_list();
@@ -44,6 +47,11 @@ if(Schema::hasTable('application_store')){
 
 
  }
+
+public function ttt(){
+  return "hi";
+}
+
 
  private function app_title_list(){
 
