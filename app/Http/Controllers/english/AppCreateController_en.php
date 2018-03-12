@@ -48,9 +48,6 @@ if(Schema::hasTable('application_store')){
 
  }
 
-public function ttt(){
-  return "hi";
-}
 
 
  private function app_title_list(){
